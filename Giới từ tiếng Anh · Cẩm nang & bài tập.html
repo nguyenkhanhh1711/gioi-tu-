@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Giới từ tiếng Anh · Cẩm nang &amp; bài tập</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,500;0,700;1,500&family=Be+Vietnam+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg1:#eef9fa;--bg2:#d4eef3;--paper:rgba(255,255,255,.74);--ink:#1f4a5a;--mut:#5c8594;--teal:#3b8ca6;--frame:#8dc3d4;--gold:#e9b73a;--line:#cfe5ec;--ok:#1b7a55;--okbg:#d8f3e6;--no:#b8344d;--nobg:#fde3e8;--blob:#a7dcea;color-scheme:light dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg1:#0d242d;--bg2:#12363f;--paper:rgba(16,48,60,.78);--ink:#e0f4f8;--mut:#9cc5d1;--teal:#6cc3dc;--frame:#2f6b7d;--gold:#f2c85a;--line:#2a5565;--ok:#6fd1a6;--okbg:#17352a;--no:#ff8aa0;--nobg:#3d1b26;--blob:#1d5668}}
+:root[data-theme="dark"]{--bg1:#0d242d;--bg2:#12363f;--paper:rgba(16,48,60,.78);--ink:#e0f4f8;--mut:#9cc5d1;--teal:#6cc3dc;--frame:#2f6b7d;--gold:#f2c85a;--line:#2a5565;--ok:#6fd1a6;--okbg:#17352a;--no:#ff8aa0;--nobg:#3d1b26;--blob:#1d5668}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;color:var(--ink);font:400 16px/1.7 "Be Vietnam Pro",system-ui,sans-serif;background:linear-gradient(180deg,var(--bg1),var(--bg2)) fixed;overflow-x:hidden}
+.bg{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.mist{position:absolute;border-radius:50%;background:var(--blob);filter:blur(40px);opacity:.7;will-change:transform}
+#br{position:absolute;right:-40px;top:-30px;width:min(86vw,420px);will-change:transform}
+.pt{position:absolute;top:-30px;width:14px;height:10px;border-radius:70% 0 70% 0;background:var(--gold);opacity:.75;animation:fall linear infinite}
+@keyframes fall{0%{transform:translate(0,-5vh) rotate(0)}50%{transform:translate(40px,55vh) rotate(180deg)}100%{transform:translate(-20px,108vh) rotate(380deg)}}
+.wv{position:absolute;left:0;bottom:0;width:200%;height:120px;opacity:.6;animation:fl 14s linear infinite}
+.wv.b{bottom:-14px;opacity:.45;animation-duration:22s;animation-direction:reverse}
+@keyframes fl{to{transform:translateX(-50%)}}
+main{position:relative;z-index:1}
+.sf{font-family:"Noto Serif",Georgia,serif;color:var(--ink)}
+.hero{min-height:96vh;display:flex;align-items:center;justify-content:center;padding:50px 20px}
+.bottle{position:relative;width:min(100%,380px);padding:64px 28px 44px;text-align:center;border:7px solid var(--frame);border-radius:30px 30px 60px 60px;background:var(--paper);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);box-shadow:inset 0 0 0 2px var(--paper),inset 0 0 0 3px var(--frame),0 30px 60px -30px rgba(31,74,90,.45)}
+.bottle::before{content:"";position:absolute;top:-34px;left:50%;width:120px;height:34px;margin-left:-60px;border:7px solid var(--frame);border-bottom:0;border-radius:12px 12px 0 0;background:var(--paper)}
+.bottle h1{font-size:clamp(46px,13vw,74px);margin:0;line-height:1;font-weight:700;color:var(--teal)}
+.bottle h1 small{display:block;font-size:.3em;font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:var(--ink);margin-top:12px}
+.bottle p{margin:20px 0 0;font-size:14px;color:var(--mut)}
+.go{display:inline-block;margin-top:24px;padding:10px 34px;border:1.5px solid var(--teal);border-radius:99px;background:transparent;color:var(--teal);font:inherit;font-weight:600;text-decoration:none;cursor:pointer;transition:background .3s,color .3s,transform .2s}
+.go:hover{background:var(--teal);color:#fff;transform:translateY(-2px)}
+.card{position:relative;max-width:780px;margin:56px 16px 44px;padding:40px 28px 28px;background:var(--paper);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:5px solid var(--frame);border-radius:26px 26px 44px 44px;box-shadow:inset 0 0 0 2px var(--paper),inset 0 0 0 3px var(--frame),0 24px 50px -32px rgba(31,74,90,.5)}
+@media(min-width:828px){.card{margin-left:auto;margin-right:auto}}
+.card::before{content:"";position:absolute;top:-22px;left:50%;width:84px;height:22px;margin-left:-42px;border:5px solid var(--frame);border-bottom:0;border-radius:9px 9px 0 0;background:var(--paper)}
+h2.sf{font-size:clamp(25px,5.5vw,34px);margin:0 0 6px;font-weight:700;color:var(--teal);line-height:1.2}
+h2.sf small{display:block;font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--mut);font-weight:500;margin-bottom:4px}
+p{margin:0 0 12px}.mut{color:var(--mut)}
+.wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;margin:10px 0;font-size:15px}
+td,th{padding:10px 12px;border-top:1px solid var(--line);text-align:left;vertical-align:top;width:50%}
+th{font-family:"Noto Serif",serif;font-size:17px;color:var(--teal);border-top:0;border-bottom:2px solid var(--frame)}
+td em{display:block;color:var(--teal);margin-top:3px;font-style:italic}
+td.k{width:30%;font-weight:600;color:var(--ink)}
+td.k+td{width:70%}
+.note{border-left:4px solid var(--gold);background:rgba(233,183,58,.12);padding:8px 14px;margin:12px 0;border-radius:0 12px 12px 0;font-size:15px}
+.q{padding:18px 0;border-top:1px solid var(--line)}
+.q:first-of-type{border-top:0}
+.qn{font-family:"Noto Serif",serif;font-weight:700;color:var(--gold);margin-right:8px}
+.sent{font-size:17px;margin-bottom:10px}
+.gap{display:inline-block;min-width:90px;text-align:center;border-bottom:2px solid var(--teal);color:var(--teal);font-weight:700;transition:all .3s}
+.gap.ok{color:var(--ok);border-color:var(--ok)}.gap.no{color:var(--no);border-color:var(--no)}
+.opt{display:block;width:100%;text-align:left;margin:7px 0;padding:10px 16px;border-radius:16px;border:1.5px solid var(--line);background:rgba(255,255,255,.18);color:var(--ink);font:inherit;cursor:pointer;transition:transform .15s,border-color .2s,background .3s}
+.opt:hover:not(:disabled){border-color:var(--teal);transform:translateX(5px)}
+.opt .l{display:inline-block;width:24px;color:var(--teal);font-weight:700}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips .opt{width:auto;margin:0;border-radius:99px;padding:8px 20px;text-align:center}
+.chips .opt:hover:not(:disabled){transform:translateY(-2px)}
+.opt.ok{background:var(--okbg);border-color:var(--ok)}
+.opt.no{background:var(--nobg);border-color:var(--no);animation:shake .4s}
+.opt:disabled{cursor:default}
+@keyframes shake{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+button:focus-visible,a:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+.fb{display:none;margin-top:12px;padding:12px 16px;border-radius:16px;font-size:15px}
+.fb.show{display:block;animation:pop .45s cubic-bezier(.2,1.3,.4,1)}
+@keyframes pop{from{opacity:0;transform:translateY(8px) scale(.97)}}
+.fb.ok{background:var(--okbg)}.fb.no{background:var(--nobg)}
+.fb strong.ok{color:var(--ok)}.fb strong.no{color:var(--no)}
+.reveal{opacity:0;transform:translateY(34px);transition:opacity 1s ease,transform 1s cubic-bezier(.2,.8,.2,1)}
+.reveal.in{opacity:1;transform:none}
+.pill{position:fixed;right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:5;padding:7px 18px;border:2px solid var(--frame);border-radius:99px;background:var(--paper);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);color:var(--ink);font-size:14px;font-weight:600}
+.score{font-family:"Noto Serif",serif;font-weight:700;font-size:72px;color:var(--teal);line-height:1}
+.center{text-align:center}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div class="bg" aria-hidden="true">
+  <div class="mist" id="m1" style="width:60vmax;height:40vmax;left:-20vmax;top:10vh"></div>
+  <div class="mist" id="m2" style="width:50vmax;height:36vmax;right:-18vmax;top:60vh"></div>
+  <svg id="br" viewBox="0 0 420 300"><path d="M420 0C340 20 300 60 240 90 190 114 130 112 70 90 40 80 20 60 0 30" fill="none" stroke="#3f7f95" stroke-width="7" stroke-linecap="round"/><g id="bl"></g></svg>
+  <div id="pts"></div>
+  <svg class="wv" viewBox="0 0 1200 120" preserveAspectRatio="none"><path d="M0 60C100 20 200 100 300 60S500 20 600 60 800 100 900 60 1100 20 1200 60V120H0z" fill="#9fdcee"/></svg>
+  <svg class="wv b" viewBox="0 0 1200 120" preserveAspectRatio="none"><path d="M0 70C120 30 220 110 340 70S540 30 660 70 860 110 960 70 1100 40 1200 70V120H0z" fill="#c8ecf5"/></svg>
+</div>
+<main>
+<section class="hero reveal"><div class="bottle">
+  <h1 class="sf">Giới từ<small>Prepositions</small></h1>
+  <p>Cẩm nang phân biệt ngữ cảnh và 70 câu thực hành. Không bao gồm in, on, at. Làm xong câu nào, đáp án và giải thích hiện ngay.</p>
+  <a class="go" href="#cn">Bắt đầu</a>
+</div></section>
+<div id="cn"></div>
+<div id="ex"></div>
+<div id="mc"></div>
+<section class="card center reveal"><h2 class="sf"><small>Tổng kết</small>Kết quả của bạn</h2><div class="score" id="final">0/70</div>
+<p class="mut" id="brk"></p><p class="mut" id="msg">Làm hết các câu để xem tổng kết.</p><button class="go" onclick="location.reload()">Làm lại từ đầu</button></section>
+</main>
+<div class="pill" id="pill">Đúng 0 / 0</div>
+
+<script>
+const TB=(cols,rows,k)=>`<div class="wrap"><table><tr>${cols.map(c=>`<th>${c}</th>`).join("")}</tr>${rows.map(r=>`<tr>${r.map((c,i)=>`<td${k&&i===0?' class="k"':""}>${c}</td>`).join("")}</tr>`).join("")}</table></div>`;
+const S=[
+["Mở đầu","Giới từ (Prepositions)","",`<p>Giới từ là những từ dùng để chỉ sự liên hệ giữa các từ trong câu, thường đứng trước danh từ hoặc đại từ để chỉ nơi chốn, thời gian, phương hướng, nguyên nhân… Dùng sai giới từ là lỗi rất phổ biến vì chúng không có quy tắc dịch một-một từ tiếng Việt. Dưới đây là các cặp / nhóm dễ nhầm lẫn nhất (không bao gồm in, on, at).</p>`],
+["1.1","Over vs. Above","Nơi chốn · ở trên",`<p>Cả hai đều mang nghĩa “cao hơn”, nhưng ngữ cảnh khác hẳn nhau.</p>`+TB(["OVER","ABOVE"],[["<b>Bao phủ / che khuất:</b> vật này phủ kín, chạm vào hoặc che ngang vật kia.<em>She put a blanket over the sleeping baby.</em>","<b>Vị trí cao hơn (không chạm):</b> nằm ở mức / tọa độ cao hơn.<em>The cabin is located above the lake.</em>"],["<b>Chuyển động ngang qua.</b><em>The plane flew over the city.</em>","<b>Mức độ, tiêu chuẩn, nhiệt độ</b> (thang đo).<em>The temperature is above zero.</em>"],["<b>Số lượng, tuổi tác</b> (more than).<em>He is over 50 years old.</em>","<b>Ưu tiên / vượt lên (nghĩa bóng):</b> cao hơn về cấp bậc, quyền lực.<em>Health is above wealth.</em>"]])+`<div class="note">Dùng <b>over</b> (không dùng above) khi nói về khắc phục, vượt qua khó khăn (get over an illness) hoặc kết thúc (The game is over).</div>`],
+["1.2","Under vs. Below vs. Beneath / Underneath","Nơi chốn · ở dưới",`<p>Trái nghĩa với nhóm Over / Above, chỉ vị trí thấp hơn.</p>`+TB(["Giới từ","Cách dùng và ví dụ"],[["Under","Ngay phía dưới, bị che khuất, bị bao phủ; dùng cho tuổi tác, số lượng (ít hơn).<em>The cat is hiding under the table. / You cannot buy alcohol if you are under 18.</em>"],["Below","Thấp hơn về mức độ, tọa độ, tiêu chuẩn, nhiệt độ (không nhất thiết bị che).<em>The sun sank below the horizon. / Her grades are below average.</em>"],["Beneath","Trang trọng (formal) của Under; hay dùng trong văn chương hoặc nghĩa bóng.<em>He considers sweeping the floor beneath his dignity.</em>"],["Underneath","Giống Under nhưng nhấn mạnh sự tiếp xúc vật lý, bị che giấu hẳn bên trong.<em>I found the key underneath the doormat.</em>"]],1)],
+["1.3","Between vs. Among","Nơi chốn · ở giữa",TB(["BETWEEN","AMONG"],[["Ở giữa các cá thể, sự vật <b>riêng biệt</b>, được chỉ đích danh (2, 3, 4 đều được).<em>The negotiations between Brazil, Argentina, and Chile are ongoing. / I sat between Tom and Jane.</em>","Nằm trong đám đông, tập thể, nhóm <b>không xác định</b> từng cá nhân (thường từ 3 trở lên).<em>The ancient temple was hidden among the trees. / She felt lonely among the crowd.</em>"]])+`<div class="note">Tài liệu cũ dạy “between dùng cho 2, among dùng cho 3 trở lên” là chưa chính xác hoàn toàn. Between vẫn dùng cho 3 vật / người trở lên nếu chúng là những thực thể phân biệt.</div>`],
+["2.1","Since vs. For","Thời gian",TB(["Giới từ","Cách dùng và ví dụ"],[["Since + mốc thời gian","Chỉ thời điểm bắt đầu, thường dùng với thì hoàn thành.<em>I have worked here since 2015. / since Monday / since I was a child.</em>"],["For + khoảng thời gian","Chỉ độ dài thời gian hành động diễn ra.<em>We have been waiting for two hours. / for a long time / for ages.</em>"]],1)],
+["2.2","Until / Till vs. By","Thời gian",TB(["UNTIL / TILL","BY"],[["Hành động <b>kéo dài liên tục</b> và kết thúc tại mốc đó. Ngầm hỏi: “kéo dài bao lâu?”<em>I will stay here until 5 PM.</em>","Hành động phải <b>hoàn thành</b> (xảy ra một lần) trước hoặc muộn nhất tại mốc đó. Ngầm hỏi: “deadline là khi nào?”<em>You must submit the report by 5 PM.</em>"]])+`<div class="note">Till thường dùng trong văn nói (informal); Until dùng được cả văn nói lẫn văn viết (formal).</div>`],
+["3.1","To vs. Towards","Di chuyển và hướng đi",TB(["Giới từ","Cách dùng và ví dụ"],[["To","Điểm đến cuối cùng (destination).<em>I am going to the supermarket.</em>"],["Towards","Hướng đi (direction), không quan tâm điểm đến cuối cùng có phải nơi đó hay không.<em>She is walking towards the supermarket. (có thể cô ấy đi ngang qua để đến rạp phim)</em>"]],1)],
+["3.2","Through vs. Across","Di chuyển và hướng đi",TB(["THROUGH (xuyên qua)","ACROSS (ngang qua)"],[["Di chuyển trong không gian <b>3 chiều</b> (có bao quanh), vào đầu này, ra đầu kia.<em>The train went through the tunnel. / We walked through the forest.</em>","Di chuyển trên <b>bề mặt 2 chiều</b>, từ bên này sang bên kia (đường, sông).<em>The old lady walked across the street. / He swam across the river.</em>"]])],
+["4.1","Because of vs. Due to","Nguyên nhân",`<p>Cả hai đều đi với cụm danh từ / V-ing (không đi với mệnh đề như because).</p>`+TB(["Giới từ","Cách dùng và ví dụ"],[["Because of","Như một <b>trạng từ</b>, bổ nghĩa cho động từ trong câu.<em>The match was canceled because of the rain.</em>"],["Due to","Như một <b>tính từ</b>, bổ nghĩa cho danh từ và luôn đứng sau động từ TO BE.<em>The cancellation of the match was due to the rain.</em>"]],1)+`<div class="note">Văn nói hằng ngày thường dùng lẫn lộn, nhưng trong văn viết học thuật (IELTS / TOEFL) hãy tuân thủ quy tắc TO BE + due to.</div>`],
+["4.2","By vs. With","Cách thức và công cụ",TB(["Giới từ","Cách dùng và ví dụ"],[["By + V-ing / Noun","Phương tiện, cách thức, người thực hiện.<em>I go to work by bus. / The window was broken by John. / He passed the exam by studying hard.</em>"],["With + Noun","Công cụ, vật dụng cụ thể, bộ phận cơ thể.<em>She cut the apple with a knife. (không dùng by a knife) / I saw it with my own eyes.</em>"]],1)],
+["4.3","Besides, Except, Apart from","Ngoài ra",TB(["BESIDES (bao gồm)","EXCEPT (loại trừ)","APART FROM"],[["= In addition to: ngoài… ra thì <b>còn có</b> (+).<em>Besides English, he speaks French.</em>","= Not including: ngoài… ra thì <b>không</b> (−).<em>Everyone passed the exam except John.</em>","Tùy ngữ cảnh, mang nghĩa của cả hai.<em>Apart from the bad weather, the trip was great.</em>"]])]];
+document.getElementById("cn").innerHTML=S.map(s=>`<section class="card reveal"><h2 class="sf"><small>${s[0]}${s[2]?" · "+s[2]:""}</small>${s[1]}</h2>${s[3]}</section>`).join("");
+
+/* bài tập cẩm nang: [nhóm, câu, lựa chọn, chỉ số đúng, giải thích] */
+const G=["Điền “over” hoặc “above”","Chọn Under, Below, Beneath","Điền “between” hoặc “among”","Chọn Since, For, Until, By","Chọn To, Towards, Through, Across","Chọn đáp án đúng"];
+const X=[
+[0,"There is a mirror ________ the sink.",["over","above"],[1],"Gương ở vị trí cao hơn bồn rửa, không bao phủ → above."],
+[0,"He wore a large coat ________ his suit.",["over","above"],[0],"Áo khoác bao phủ bên ngoài bộ vest → over."],
+[0,"They have received ________ 500 applications for the job.",["over","above"],[0],"Over = more than (số lượng) → over 500."],
+[0,"My bedroom is directly ________ the kitchen.",["over","above"],[0,1],"Thẳng đứng phía trên: dùng được cả hai; ưu tiên over khi nói thẳng đứng, above cũng được chấp nhận."],
+[1,"Please do not write ________ this line.",["under","below","beneath","underneath"],[1],"Thấp hơn vạch (mức, tiêu chuẩn) → below."],
+[1,"They found a box of old photos ________ the floorboards.",["under","below","beneath","underneath"],[2,3],"Bị che khuất dưới sàn nhà → underneath / beneath."],
+[1,"The temperature dropped to 5 degrees ________ zero.",["under","below","beneath","underneath"],[1],"Nhiệt độ → below zero."],
+[2,"Switzerland lies ________ France, Germany, Austria, and Italy.",["between","among"],[0],"Các quốc gia là thực thể riêng biệt, kể đích danh → between."],
+[2,"You will find the pen ________ the papers on my desk.",["between","among"],[1],"Cây bút nằm lẫn trong đống giấy → among."],
+[2,"There is a secret ________ you and me.",["between","among"],[0],"Giữa hai người → between you and me."],
+[3,"The store is open ________ 10 PM every day.",["since","for","until","by"],[2],"Mở cửa liên tục đến 10 giờ → until."],
+[3,"Please return the book to the library ________ Friday.",["since","for","until","by"],[3],"Hạn chót (deadline) → by Friday."],
+[3,"They haven’t seen each other ________ they graduated.",["since","for","until","by"],[0],"Since + mệnh đề chỉ mốc thời gian (kể từ khi tốt nghiệp)."],
+[3,"I have been studying English ________ three years.",["since","for","until","by"],[1],"Khoảng thời gian ba năm → for."],
+[4,"The sunlight shone ________ the window.",["to","towards","through","across"],[2],"Ánh nắng xuyên qua cửa sổ → through."],
+[4,"Look! That dog is running ________ us.",["to","towards","through","across"],[1],"Chạy về hướng chúng ta (chỉ hướng) → towards."],
+[4,"We need a bridge to get ________ the river.",["to","towards","through","across"],[3],"Bắc cầu ngang qua sông (bề mặt) → across."],
+[5,"He fixed the door ________ a hammer.",["by","with"],[1],"Cái búa là công cụ cụ thể → with."],
+[5,"________ music, she is also interested in painting.",["Besides","Except"],[0],"Ngoài âm nhạc còn thích hội họa (cộng thêm) → Besides."],
+[5,"His failure was ________ lack of preparation.",["because of","due to"],[1],"Đứng sau to be (was) → due to."]];
+
+/* trắc nghiệm 50 câu: [câu, 4 phương án, đáp án, giải thích] */
+const M=[
+["The mother gently placed a warm blanket ________ the sleeping baby.",["above","over","beyond","across"],1,"Over mang nghĩa bao phủ (đắp chăn che kín đứa bé)."],
+["Due to the heatwave, the temperature is 5 degrees ________ average today.",["above","over","on","through"],0,"Above dùng với thang đo nhiệt độ, tiêu chuẩn (trên mức trung bình)."],
+["The concert was a huge success; ________ 50,000 fans attended the event.",["above","over","across","between"],1,"Over chỉ số lượng vượt mức (hơn 50,000 người)."],
+["The ancient castle sits on a hill exactly 500 meters ________ sea level.",["over","beyond","above","upon"],2,"Above sea level (trên mực nước biển) là cụm cố định chỉ độ cao tuyệt đối."],
+["It took him months to get ________ the shock of losing his job.",["over","above","through","under"],0,"Get over là cụm động từ: vượt qua, khắc phục cú sốc / bệnh tật."],
+["You cannot buy this type of medicine if you are ________ 18 years old.",["below","beneath","under","underneath"],2,"Under dùng cho tuổi tác, số lượng (dưới 18 tuổi)."],
+["His performance in the last quarter was completely ________ our expectations.",["under","below","beneath","underneath"],1,"Below expectations (dưới mức kỳ vọng): below dùng cho mức độ, tiêu chuẩn."],
+["The arrogant manager considers talking to the janitors ________ his dignity.",["below","under","beneath","behind"],2,"Beneath one’s dignity: nghĩa bóng, hạ thấp phẩm giá, không xứng đáng."],
+["After hours of searching, I found the missing key completely hidden ________ the heavy rug.",["below","underneath","down","among"],1,"Underneath nhấn mạnh việc bị che lấp, giấu kín hoàn toàn dưới tấm thảm."],
+["The cat was terrified of the thunderstorm and hid ________ the bed all night.",["under","below","lower","above"],0,"Under: vị trí bị che khuất ngay bên dưới một vật (gầm giường, gầm bàn)."],
+["I had to sit ________ two people who were arguing loudly on the train.",["among","between","middle","within"],1,"Between dùng cho vị trí ở giữa 2 người hoặc vật cụ thể."],
+["We finally found the small wooden cabin hidden ________ the tall pine trees.",["between","beside","among","amidst of"],2,"Among: nằm xen lẫn trong nhóm (rừng cây) không phân biệt rõ ràng."],
+["The trade agreement ________ Vietnam, Japan, and South Korea was signed yesterday.",["among","between","with","across"],1,"Dù có 3 quốc gia, đây là 3 thực thể riêng biệt được kể tên đích danh → between."],
+["Please keep this secret ________ you and me.",["among","with","between","by"],2,"Giữa bạn và tôi luôn là between you and me."],
+["She felt completely lonely even when she was ________ a large crowd at the festival.",["between","inside","among","through"],2,"Nằm lẫn trong đám đông không xác định → among."],
+["I haven’t eaten anything ________ 7 o’clock this morning.",["for","since","until","by"],1,"Since + mốc thời gian (từ lúc 7 giờ sáng)."],
+["They have been living in this neighborhood ________ over ten years.",["for","since","through","by"],0,"For + khoảng thời gian (hơn 10 năm)."],
+["We have known each other ________ we were in high school.",["since","for","from","until"],0,"Since + mệnh đề chỉ mốc thời gian trong quá khứ (từ khi học cấp 3)."],
+["He studied Japanese ________ three months before moving to Tokyo.",["since","during","for","until"],2,"For chỉ khoảng thời gian kéo dài của hành động (3 tháng)."],
+["________ last summer, the company has hired 50 new employees.",["For","Since","By","Until"],1,"Since + mốc thời gian (mùa hè năm ngoái)."],
+["You must submit your final assignment ________ Friday afternoon at the latest.",["until","by","to","for"],1,"By: hành động phải hoàn thành trước một mốc (hạn chót)."],
+["The library will remain open ________ midnight during the exam week.",["by","until","since","over"],1,"Until: trạng thái mở cửa kéo dài liên tục đến nửa đêm."],
+["We need to finish decorating the hall ________ the guests arrive at 6 PM.",["by","until","towards","for"],0,"By (trước lúc): việc trang trí phải xong trước 6 giờ."],
+["I will wait here ________ you come back from the meeting.",["by","until","to","for"],1,"Until (cho đến khi): hành động đợi kéo dài liên tục."],
+["Do not open the oven door ________ the timer rings.",["by","towards","until","through"],2,"Không được mở cửa lò liên tục cho đến khi chuông reo → until."],
+["After work, I am going directly ________ the supermarket to buy some groceries.",["to","towards","across","for"],0,"To chỉ đích đến cuối cùng (destination) là siêu thị."],
+["When I saw him, he was running ________ the park, but I don’t know if that was his final destination.",["to","towards","through","over"],1,"Towards chỉ hướng đi (về phía công viên), không khẳng định đó là đích đến."],
+["Please hand this document ________ the manager as soon as possible.",["towards","to","for","with"],1,"Hand something to somebody: đưa vật gì đến ai đó."],
+["The stray dog suddenly started walking aggressively ________ me.",["to","towards","for","across"],1,"Con chó tiến về hướng tôi: towards, mang tính phương hướng."],
+["We are planning a trip ________ Paris next spring.",["towards","to","by","across"],1,"Chuyến đi có đích đến cụ thể → to Paris."],
+["It took us two hours to drive ________ the dense forest.",["across","through","over","above"],1,"Through: di chuyển xuyên qua không gian 3 chiều (xuyên qua rừng)."],
+["The old lady carefully walked ________ the busy street to get to the pharmacy.",["through","across","by","between"],1,"Across: đi từ bên này sang bên kia của một mặt phẳng (sang đường)."],
+["The high-speed train went safely ________ the dark mountain tunnel.",["through","across","under","below"],0,"Through: đi xuyên qua đường hầm (có không gian bao bọc)."],
+["He was strong enough to swim ________ the wide river.",["through","over","across","among"],2,"Across: bơi ngang qua sang bờ bên kia (mặt phẳng nước)."],
+["Beautiful morning sunlight shone ________ the glass window.",["across","through","over","between"],1,"Ánh sáng chiếu xuyên qua cửa sổ → through."],
+["The outdoor concert was unexpectedly canceled ________ the heavy rain.",["due to","because of","both A and B in informal spoken English","by"],1,"Because of bổ nghĩa cho động từ “was canceled” nên chuẩn ngữ pháp nhất. Văn nói dùng được cả A và B, nhưng trong bài kiểm tra ưu tiên B."],
+["The delay in our flight schedule was completely ________ a technical issue.",["due to","because of","by","since"],0,"Due to đứng sau to be “was”, bổ nghĩa cho danh từ “The delay”."],
+["He failed to finish the marathon ________ his severe leg injury.",["due to","because of","for","until"],1,"Trạng ngữ chỉ nguyên nhân bổ nghĩa cho động từ “failed” → because of."],
+["The company’s massive success is largely ________ the CEO’s brilliant strategy.",["due to","because of","through","with"],0,"Đứng ngay sau to be “is” → due to."],
+["We decided to stay indoors ________ the freezing weather outside.",["because of","due to","by","since"],0,"Bổ nghĩa cho động từ “stay” → because of."],
+["I usually travel to work ________ bus to avoid driving in traffic.",["with","by","on","in"],1,"By + phương tiện giao thông (by bus)."],
+["The chef expertly chopped the onions ________ a very sharp knife.",["by","with","from","using of"],1,"With + công cụ (bằng con dao)."],
+["This famous portrait was painted ________ Leonardo da Vinci.",["with","through","by","over"],2,"Câu bị động: by + người thực hiện hành động."],
+["He managed to open the broken lock ________ a hairpin.",["by","with","for","to"],1,"With khi nói dùng một đồ vật cụ thể làm công cụ (kẹp tóc)."],
+["You can improve your English pronunciation ________ practicing every single day.",["by","with","through","for"],0,"By + V-ing chỉ cách thức để đạt được điều gì."],
+["Everyone in the office attended the meeting ________ John, who was sick at home.",["besides","except","instead of","without"],1,"Except mang nghĩa loại trừ (mọi người đi hết trừ John)."],
+["________ playing the piano, she is also excellent at playing the violin.",["Except","Besides","Without","Unless"],1,"Besides mang nghĩa cộng thêm (ngoài piano còn có violin)."],
+["________ a few minor spelling mistakes, your essay is absolutely wonderful.",["Apart from","Besides","Between","Along with"],0,"Apart from có thể đóng vai trò như except (loại trừ vài lỗi chính tả nhỏ)."],
+["I have no close relatives in this city ________ my older brother.",["besides","apart with","except","among"],2,"Nghĩa loại trừ hoàn toàn (không còn ai ngoại trừ anh trai) → except."],
+["Who else is coming to the dinner party tonight ________ Mark and Sarah?",["besides","except","beneath","without"],0,"Hỏi mang tính cộng thêm (còn ai nữa bên cạnh hai người này) → besides."]];
+
+let ok=0,done=0;const pc=[0,0],L=["A","B","C","D"],pill=document.getElementById("pill");
+function upd(){pill.textContent=`Đúng ${ok} / ${done}`;if(done===70){document.getElementById("brk").textContent=`Bài tập cẩm nang: ${pc[0]}/20 · Trắc nghiệm: ${pc[1]}/50`;document.getElementById("final").textContent=ok+"/70";document.getElementById("msg").textContent=ok>=63?"Xuất sắc, bạn phân biệt giới từ rất chắc.":ok>=49?"Khá tốt. Xem lại những câu sai để chắc hơn.":"Đọc lại cẩm nang rồi thử lại nhé."}}
+let ctx;
+function snd(g){try{ctx=ctx||new(window.AudioContext||window.webkitAudioContext)();const n=ctx.currentTime;(g?[[660,0],[880,.12],[1175,.24]]:[[220,0],[165,.17]]).forEach(([f,o])=>{const s=ctx.createOscillator(),v=ctx.createGain();s.type=g?"sine":"sawtooth";s.frequency.value=f;v.gain.setValueAtTime(.0001,n+o);v.gain.exponentialRampToValueAtTime(g?.2:.12,n+o+.02);v.gain.exponentialRampToValueAtTime(.0001,n+o+.3);s.connect(v);v.connect(ctx.destination);s.start(n+o);s.stop(n+o+.32)})}catch(e){}}
+function mark(g,p){done++;if(g){ok++;pc[p]++}snd(g);upd()}
+
+/* dựng một câu hỏi: it = {n, stem, opts, ans[], exp, chips, part} */
+function build(it){
+  const d=document.createElement("div");d.className="q";
+  d.innerHTML=`<div class="sent"><span class="qn">${it.n}.</span>${it.stem.replace(/_{3,}/,'<span class="gap">______</span>')}</div><div class="${it.chips?"chips":""}">${it.opts.map((o,j)=>`<button class="opt" data-j="${j}">${it.chips?"":`<span class="l">${L[j]}.</span>`}${o}</button>`).join("")}</div><div class="fb"></div>`;
+  const bs=[...d.querySelectorAll(".opt")],gap=d.querySelector(".gap"),fb=d.querySelector(".fb");
+  bs.forEach(b=>b.onclick=()=>{const j=+b.dataset.j,g=it.ans.includes(j);
+    bs.forEach(x=>x.disabled=true);it.ans.forEach(a=>bs[a].classList.add("ok"));if(!g)b.classList.add("no");
+    gap.textContent=it.opts[g?j:it.ans[0]];gap.classList.add(g?"ok":"no");
+    const right=it.ans.map(a=>it.chips?it.opts[a]:L[a]+". "+it.opts[a]).join(" / ");
+    fb.className="fb show "+(g?"ok":"no");
+    fb.innerHTML=`<strong class="${g?"ok":"no"}">${g?"Chính xác!":"Chưa đúng."}</strong> Đáp án: <b>${right}</b><div class="mut">${it.exp}</div>`;
+    mark(g,it.part)});
+  return d;
+}
+const card=(h,sub)=>{const s=document.createElement("section");s.className="card reveal";s.innerHTML=`<h2 class="sf"><small>${sub}</small>${h}</h2>`;return s};
+const exEl=document.getElementById("ex"),mcEl=document.getElementById("mc");
+G.forEach((g,gi)=>{const c=card(g,"Bài tập "+(gi+1)+" · cẩm nang");X.forEach((x,i)=>{if(x[0]===gi)c.appendChild(build({n:i+1,stem:x[1],opts:x[2],ans:x[3],exp:x[4],chips:true,part:0}))});exEl.appendChild(c)});
+for(let g=0;g<5;g++){const c=card(`Câu ${g*10+1}–${g*10+10}`,"Trắc nghiệm tổng hợp");M.slice(g*10,g*10+10).forEach((m,i)=>c.appendChild(build({n:g*10+i+1,stem:m[0],opts:m[1],ans:[m[2]],exp:m[3],chips:false,part:1})));mcEl.appendChild(c)}
+
+/* trang trí: cành mai, cánh hoa rơi, parallax */
+(function(){let h="";[[40,92],[78,100],[120,108],[165,104],[205,92],[250,80],[300,64],[350,38],[385,18],[100,84],[225,86]].forEach(([x,y],i)=>{h+=`<g transform="translate(${x} ${y}) scale(${.8+(i%3)*.25})">${[0,72,144,216,288].map(a=>`<ellipse cx="0" cy="-8" rx="6" ry="9" fill="#f6d36b" transform="rotate(${a})"/>`).join("")}<circle r="3" fill="#c98a1a"/></g>`});document.getElementById("bl").innerHTML=h;
+let p="";for(let i=0;i<16;i++)p+=`<i class="pt" style="left:${(i*37)%100}vw;animation-duration:${14+(i*5)%12}s;animation-delay:${-(i*3)%16}s"></i>`;document.getElementById("pts").innerHTML=p})();
+const px=[["m1",.06],["m2",-.05],["br",.1]].map(x=>[document.getElementById(x[0]),x[1]]);
+addEventListener("scroll",()=>{const y=scrollY;px.forEach(([e,s])=>e.style.transform=`translateY(${y*s}px)`)},{passive:true});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.05});
+document.querySelectorAll(".reveal").forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
